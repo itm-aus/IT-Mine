@@ -82,78 +82,8 @@ export default function Cybersecurity() {
         </div>
       </section>
 
-      {/* Compliance Section */}
-      <section className="py-24 px-8 bg-slate-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <div className="text-xs font-bold tracking-widest text-primary uppercase mb-4">ARCHITECTURAL INTEGRITY</div>
-            <h2 className="text-4xl font-extrabold text-slate-900">Compliance & Governance</h2>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-6 mb-6">
-            <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
-              <div className="w-12 h-12 bg-teal-50 rounded-xl flex items-center justify-center mb-6">
-                <Shield className="text-accent" size={24} />
-              </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-4">ISO 27001 Certified</h3>
-              <p className="text-slate-500 mb-6">
-                Rigorous information security management systems designed to keep your most sensitive organizational data secure at every layer.
-              </p>
-              <div className="flex gap-2">
-                <span className="px-2 py-1 bg-blue-50 text-primary text-xs font-bold rounded">Soc2 Ready</span>
-                <span className="px-2 py-1 bg-blue-50 text-primary text-xs font-bold rounded">Annual Review</span>
-              </div>
-            </div>
-            
-            <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 flex flex-col items-center justify-center text-center">
-              <h3 className="text-3xl font-extrabold text-slate-900 mb-2">SOC2</h3>
-              <div className="text-sm font-bold text-slate-400 tracking-widest uppercase mb-6">TYPE II COMPLIANCE</div>
-              <Award className="text-primary" size={48} />
-            </div>
-            
-            <div className="bg-gradient-to-br from-slate-200 to-slate-300 p-8 rounded-2xl shadow-sm relative overflow-hidden flex flex-col justify-end min-h-[250px]">
-              <div className="absolute inset-0 bg-black/10"></div>
-              <div className="relative z-10">
-                <h3 className="text-xl font-bold text-slate-900 mb-2">GDPR Readiness</h3>
-                <p className="text-slate-700 text-sm">
-                  Global data privacy standards implemented by default.
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 flex items-start gap-4">
-              <div className="w-10 h-10 bg-teal-50 rounded-xl flex items-center justify-center shrink-0">
-                <Lock className="text-accent" size={20} />
-              </div>
-              <div>
-                <h3 className="font-bold text-slate-900 mb-2">HIPAA Compliance</h3>
-                <p className="text-sm text-slate-500">Healthcare-grade data protection protocols for PHI data handling.</p>
-              </div>
-            </div>
-            
-            <div className="md:col-span-2 bg-secondary p-8 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-8">
-              <div>
-                <h3 className="text-xl font-bold text-white mb-2">Zero-Trust Framework</h3>
-                <p className="text-slate-400 text-sm max-w-md">
-                  Our proprietary "Never Trust, Always Verify" engine continuously validates every user, device, and connection attempt.
-                </p>
-              </div>
-              <div className="flex gap-4">
-                <div className="bg-slate-800 px-4 py-3 rounded-lg text-center">
-                  <div className="text-accent font-bold text-lg mb-1">100%</div>
-                  <div className="text-[10px] text-slate-400 font-bold tracking-wider">VERIFICATION</div>
-                </div>
-                <div className="bg-slate-800 px-4 py-3 rounded-lg text-center">
-                  <div className="text-accent font-bold text-lg mb-1">&lt;1s</div>
-                  <div className="text-[10px] text-slate-400 font-bold tracking-wider">LATENCY</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
+
 
       {/* CTA Section */}
       <section className="bg-primary py-24 px-8 text-center text-white relative overflow-hidden">

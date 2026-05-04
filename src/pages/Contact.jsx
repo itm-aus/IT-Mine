@@ -80,7 +80,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-bold text-slate-900 mb-1">Headquarters</h3>
-                  <p className="text-slate-500">Melbourne Australia</p>
+                  <p className="text-slate-500">Melbourne, VIC, Australia</p>
                 </div>
               </div>
 
@@ -90,18 +90,18 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-bold text-slate-900 mb-1">Phone</h3>
-                  <p className="text-slate-500">0482677774<br /></p>
+                  <p className="text-slate-500">+0482677774<br /></p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center shrink-0">
+                {/* <div className="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center shrink-0">
                   <Mail size={24} />
                 </div>
                 <div>
                   <h3 className="font-bold text-slate-900 mb-1">Email</h3>
                   <p className="text-slate-500">syed@itmine.com.au</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -144,8 +144,8 @@ export default function Contact() {
                 <textarea id="message" name="message" rows={4} required className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-colors resize-none" placeholder="How can we help you?"></textarea>
               </div>
 
-              <button 
-                type="submit" 
+              <button
+                type="submit"
                 disabled={isSubmitting}
                 className="w-full bg-primary hover:bg-blue-700 disabled:bg-slate-400 text-white font-bold py-4 rounded-lg transition-all flex items-center justify-center gap-2"
               >

@@ -88,7 +88,7 @@ function Hero() {
             </button>
           </Link>
         </div>
-        
+
         {/* Slider dots */}
         <div className="flex gap-2 pt-8">
           {slides.map((_, idx) => (
@@ -105,14 +105,14 @@ function Hero() {
         <div className="absolute inset-0 bg-gradient-to-bl from-teal-100 to-blue-50 rounded-3xl transform rotate-3 scale-105 -z-10 blur-xl opacity-50 transition-all duration-500"></div>
         <div className="bg-white p-4 rounded-3xl shadow-2xl relative group overflow-hidden">
           <div className="relative w-full h-[400px]">
-             {slides.map((s, idx) => (
-               <img
-                  key={idx}
-                  src={s.imgUrl}
-                  alt={s.imgAlt}
-                  className={`absolute inset-0 w-full h-full object-cover rounded-2xl transition-opacity duration-700 ease-in-out ${current === idx ? 'opacity-100' : 'opacity-0'}`}
-               />
-             ))}
+            {slides.map((s, idx) => (
+              <img
+                key={idx}
+                src={s.imgUrl}
+                alt={s.imgAlt}
+                className={`absolute inset-0 w-full h-full object-cover rounded-2xl transition-opacity duration-700 ease-in-out ${current === idx ? 'opacity-100' : 'opacity-0'}`}
+              />
+            ))}
           </div>
           <div className="absolute bottom-8 left-8 right-8 bg-white/90 backdrop-blur px-6 py-4 rounded-xl flex items-center justify-between shadow-lg transform transition-transform duration-500 hover:scale-105">
             <span className="text-primary font-semibold text-sm tracking-wide uppercase transition-all duration-500">{slide.statLabel}</span>
@@ -128,7 +128,7 @@ function Stats() {
   const stats = [
     { value: '99.9%', label: 'SYSTEM UPTIME' },
     { value: '24/7', label: 'THREAT MONITORING' },
-    { value: '100+', label: 'MANAGED ENTERPRISES' },
+    { value: '50+', label: 'MANAGED ENTERPRISES' },
     { value: '15ms', label: 'AVG. RESPONSE TIME' },
   ];
 
@@ -251,12 +251,12 @@ function Testimonials() {
     <section className="py-24 px-8 bg-slate-100">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-extrabold text-slate-900 mb-8">Trusted by Market Leaders</h2>
+          <h2 className="text-3xl font-extrabold text-slate-900 mb-8">Partners With</h2>
           <div className="flex flex-wrap justify-center gap-12 text-slate-400 font-bold tracking-widest text-xl">
-            <span>VERTEX</span>
-            <span>DATACORE</span>
-            <span>SYNTH_SYS</span>
-            <span>AERO_TECH</span>
+            <span>PAX8</span>
+            {/* <span>SMBIT</span> */}
+            <span>MB</span>
+            <span>MICROSOFT</span>
           </div>
         </div>
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -273,7 +273,7 @@ function Testimonials() {
               </div>
               <div>
                 <div className="font-bold text-slate-900">Marcus Sterling</div>
-                <div className="text-sm text-slate-500">VP of Tech, DataCore</div>
+                <div className="text-sm text-slate-500">VP of Tech, SMBIT</div>
               </div>
             </div>
           </div>
@@ -290,7 +290,7 @@ function Testimonials() {
               </div>
               <div>
                 <div className="font-bold text-slate-900">Sarah Jenkins</div>
-                <div className="text-sm text-slate-500">Director, AeroTech</div>
+                <div className="text-sm text-slate-500">Director, Pax8</div>
               </div>
             </div>
           </div>

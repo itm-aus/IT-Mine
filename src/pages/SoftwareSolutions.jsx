@@ -143,7 +143,7 @@ export default function SoftwareSolutions() {
           <div className="relative z-10 flex flex-col gap-4 w-full md:w-auto">
             <div className="bg-[#121d33] border border-slate-800 p-6 rounded-2xl flex items-center gap-6">
               <div>
-                <div className="text-teal-400 text-3xl font-extrabold">150+</div>
+                <div className="text-teal-400 text-3xl font-extrabold">50+</div>
                 <div className="text-[10px] text-slate-400 tracking-widest uppercase font-bold">APPS SHIPPED</div>
               </div>
               <div className="w-px h-12 bg-slate-700"></div>

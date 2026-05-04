@@ -16,7 +16,7 @@ export default function Footer() {
             <li><a href="#" className="hover:text-white transition-colors">Cybersecurity</a></li>
             <li><a href="#" className="hover:text-white transition-colors">MSP Services</a></li>
             <li><a href="#" className="hover:text-white transition-colors">Cloud Migration</a></li>
-            <li><a href="#" className="hover:text-white transition-colors">DevOps Integration</a></li>
+            <li><a href="#" className="hover:text-white transition-colors">AI Solutions</a></li>
           </ul>
         </div>
         <div className="flex flex-col items-center">

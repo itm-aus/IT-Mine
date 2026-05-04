@@ -141,10 +141,6 @@ export default function Ai() {
               <Shield className="text-teal-400 w-32 h-32 opacity-20" strokeWidth={1} />
               <Lock className="text-white absolute z-10" size={48} />
               
-              <div className="absolute -bottom-6 -right-6 bg-white px-8 py-6 rounded-2xl shadow-xl border border-slate-100 z-20 flex flex-col items-center">
-                <div className="text-[10px] text-slate-400 tracking-widest uppercase font-bold mb-1">PROTOCOL VERIFIED</div>
-                <div className="text-slate-900 font-extrabold text-lg">SOC-2 Type II</div>
-              </div>
             </div>
           </div>
           
