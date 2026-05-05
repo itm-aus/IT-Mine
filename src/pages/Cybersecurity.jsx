@@ -14,7 +14,7 @@ export default function Cybersecurity() {
           </div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 leading-[1.1] tracking-tight">
             Proactive <br />
-            <span className="text-primary">Threat <br/>Defense</span>
+            <span className="text-primary">Threat <br />Defense</span>
           </h1>
           <p className="text-lg text-slate-500 max-w-md leading-relaxed">
             We don't just react to breaches. We engineer digital perimeters that evolve faster than the threats they neutralize. High-fidelity security for the modern enterprise.
@@ -30,9 +30,9 @@ export default function Cybersecurity() {
         <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-bl from-teal-100 to-blue-50 rounded-3xl transform -rotate-3 scale-105 -z-10 blur-xl opacity-50"></div>
           <div className="bg-white p-4 rounded-3xl shadow-2xl relative">
-            <img 
-              src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80" 
-              alt="Server Security" 
+            <img
+              src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80"
+              alt="Server Security"
               className="rounded-2xl w-full h-[450px] object-cover"
             />
           </div>
@@ -53,7 +53,7 @@ export default function Cybersecurity() {
               24 / 07 / 365
             </div>
           </div>
-          
+
           <div className="grid lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 bg-[#0d1627] rounded-2xl p-8 border border-slate-800 flex flex-col justify-between h-[300px]">
               <div className="flex justify-between items-start">
@@ -69,7 +69,7 @@ export default function Cybersecurity() {
                 ))}
               </div>
             </div>
-            
+
             <div className="bg-primary rounded-2xl p-8 text-white flex flex-col justify-center">
               <div className="text-xs text-blue-200 font-bold tracking-widest uppercase mb-2">INCIDENTS BLOCKED TODAY</div>
               <div className="text-5xl font-bold mb-6">12,842</div>
@@ -105,7 +105,7 @@ export default function Cybersecurity() {
             </Link>
           </div>
           <div className="text-xs font-bold tracking-widest text-blue-200 uppercase">
-            AVERAGE DEPLOYMENT TIME: 48 HOURS | 24/7 GLOBAL SUPPORT INCLUDED
+            24/7 GLOBAL SUPPORT INCLUDED
           </div>
         </div>
       </section>

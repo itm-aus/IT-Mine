@@ -153,8 +153,8 @@ export default function SoftwareSolutions() {
               </div>
             </div>
             <div className="bg-[#121d33] border border-slate-800 p-6 rounded-2xl text-center">
-              <div className="text-white text-2xl font-extrabold mb-1">ISO:27001</div>
-              <div className="text-[10px] text-slate-400 tracking-widest uppercase font-bold">SECURITY STANDARDS CERTIFIED</div>
+              <div className="text-white text-2xl font-extrabold mb-1">Cloud Expertise</div>
+              <div className="text-[10px] text-slate-400 tracking-widest uppercase font-bold">Cloud & DevOps</div>
             </div>
           </div>
         </div>

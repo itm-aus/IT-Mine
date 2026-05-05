@@ -79,7 +79,7 @@ export default function Contact() {
                   <MapPin size={24} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 mb-1">Headquarters</h3>
+                  <h3 className="font-bold text-slate-900 mb-1">Headquarter</h3>
                   <p className="text-slate-500">Melbourne, VIC, Australia</p>
                 </div>
               </div>
