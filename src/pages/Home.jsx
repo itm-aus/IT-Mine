@@ -255,7 +255,7 @@ function Testimonials() {
           <div className="flex flex-wrap justify-center gap-12 text-slate-400 font-bold tracking-widest text-xl">
             <span>PAX8</span>
             {/* <span>SMBIT</span> */}
-            <span>MB</span>
+            {/* <span>MB</span> */}
             <span>MICROSOFT</span>
           </div>
         </div>
